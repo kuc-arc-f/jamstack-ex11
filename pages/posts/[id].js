@@ -43,6 +43,18 @@ console.log(blog)
         background-color: #000;
         border: none;
       }
+      div#post_item > ul{
+        list-style-type: disc;
+        margin-left : 1rem;
+      }
+      div#post_item > h1{
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      div#post_item > h3{
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
       .show_head_wrap{ font-size: 1.4rem; }
       `}</style>      
   </Layout>

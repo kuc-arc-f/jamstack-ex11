@@ -48,9 +48,9 @@ export async function getStaticProps() {
   const json = await req.json();  
   var items = json.items 
   items =  LibCommon.get_reverse_items(items)
+// console.log( "len=", items.length)  
   LibPagenate.init()
   items = LibPagenate.getOnepageItems(items, 0 , 20)  
-//console.log(items)  
   var display = LibPagenate.is_paging_display(items.length)      
   return {
     props : {
