@@ -30,5 +30,9 @@ https://cms-kuc-jamstack-ex11.netlify.app
 ***
 ### Blog :
 
+* tailwindcss + next.js、jsonファイル読込むSSGサイト
+
+https://zenn.dev/knaka0209/articles/c8451c934ab202
+
 ***
 
