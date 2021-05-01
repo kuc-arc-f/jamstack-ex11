@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 const IndexRow = props => (
-  <div className="flex flex-row shadow-lg mb-2" key={props.save_id}>
+  <div className="flex flex-row shadow-lg mb-4" key={props.save_id}>
     <div className="hidden sm:block flex-none w-24 h-24 lg:h-auto text-center text-white bg-gray-200 p-2 rounded-l-lg">
       <span className="text-5xl text-gray-400 ">
         <i className="far fa-sticky-note mt-3 lg:mt-1"></i>
