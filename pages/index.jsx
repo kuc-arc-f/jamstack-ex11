@@ -20,7 +20,7 @@ export default function Index(data) {
       <TopHeadBox site_name={data.site_name} info_text={data.info_text} />
       <Container key="Index">
         <div className="p-1">
-          <h3 className="text-3xl text-blue-400 font-bold mb-0">Posts</h3>
+          <h3 className="text-3xl myblog_color_accent font-bold mb-0">Posts</h3>
         </div>        
         {items.map((item, index) => {
 // console.log(item )
@@ -37,6 +37,7 @@ export default function Index(data) {
         })}
       </Container>
     </Layout>
+
     </div>
   )
 }

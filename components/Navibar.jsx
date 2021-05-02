@@ -3,7 +3,7 @@ import Head from 'next/head';
 //
 export default function Page(){
   return (
-  <div className="navigate_wrap bg-gray-700">
+  <div className="navigate_wrap myblog_bgcolor_sub">
     <div className="container mx-auto px-8">
       <div className="head_menu_wrap py-3">
         <Link href="/" ><a>
